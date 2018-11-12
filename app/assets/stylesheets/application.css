@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Poor+Story');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600,900');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Oswald');
+
+
+.container{
+    width:80%;
+    margin:auto;
+}
+
+/* HEADER */
+
+.header
+{
+    height:85px;
+    background-color:#833471;
+    -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+}
+
+.header-container
+{
+    width:80%;
+    margin:auto;
+}
+
+.header-title
+{
+    float:left;
+    font-family: 'Poor Story', cursive;
+    line-height:85px;
+    color:white;
+}
+
+
+
+.header-link
+{
+    float:right;
+    line-height:85px;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    padding-left:10px;
+    font-size:25px;
+
+}
+
+.header a{
+  color:white;
+  margin-right:10px;
+  text-decoration:none;
+}
+.header a:hover,
+.header a:active{
+  color:#ffac33;
+  border-bottom:2px solid white;
+}
+
+/* HEADER */
+
+/* HEADING */
+
+.main-title{
+
+}
+
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tablinks{
+    margin-left:100px;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+
+/* HEADING */
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1519690889869-e705e59f72e1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2c7007454a376ae5ec2a155c4f68fa67&auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+     
+}
+
+#recette{
+    margin-right:200px;
+    
+}
+
+.main-container{
+    margin-bottom:10em;
+    margin-top:3em;
+}
+
+
+/* FOOTER */
+
+.footer-container
+{
+    width:90%;
+    margin:auto;
+    justify-content:center;
+    display:inline;
+}
+
+
+.footer-heart-container
+{
+   display:flex;
+   justify-content:center;
+   width:80%;
+   margin:auto;
+   padding-top:25px;
+}
+
+
+
+.footer-heart
+{
+  font-size:13px;
+  margin-top:15px;
+  justify-content:center;
+  display:flex;
+  color:white;
+}
+
+.footer p {
+    font-size:18px;
+}
+
+.footer p i{
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.footer
+{
+    position:relative;
+    height:100px;
+    width:100%;
+    background-color:#833471;
+    font-family: 'Poor Story', cursive;
+    margin-top:10em;
+    bottom:0;
+}
+
+/* ------------- */
+/* FOOTER */
+
+.mrg{
+    margin-top:8px;
+}
+
+.PP{
+    border-radius:3px;
+    border:3px solid black;
+}
+
+
+.btn-primary{
+    border-color:#833471;
+    background-color:transparent;
+    font-family: 'Poppins', sans-serif;
+    border:2px solid #833471;
+    color: #833471;
+}
+
+.btn-primary:active,
+.btn-primary:hover{
+    background-color:#833471;
+    border-color:#833471;
+    color:white;
+}
+
+#btnn:active,
+#btnn:hover{
+    background-color:#833471;
+    border-color:#833471;
+    color:white;
+}
+
+.btnlike{
+    border:transparent;
+}
