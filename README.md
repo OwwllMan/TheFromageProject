@@ -1,24 +1,31 @@
-# README
+# TheFromage Project 🧀 - fr
+### Production : https://fromageprojectstrasbourg.herokuapp.com/
+## 📰 The content
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
+**No dependencies needed for the today's exercise **
 
-* System dependencies
 
-* Configuration
 
-* Database creation
+## 💎 Gems
 
-* Database initialization
+in this project we use : 
 
-* How to run the test suite
+```sh
+source "https://rubygems.org"
+rails '5.2.1'
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+you can find all the gems in the Gemfile in this directory : 
 
-* Deployment instructions
+TheFromageProject/Gemfile
 
-* ...
+## :european_post_office: The Strasbourg Crew 💪
+Done alone @OwwllMan
+
+<hr>
+
+***It's an exercise from the TheHackingProject bootcamp.***
+
+***> www.thehackingproject.org***
